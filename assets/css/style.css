@@ -45,10 +45,19 @@ h4 {
     font-weight: lighter;
 }
 
-.borderright {
-    border-right: 1px solid #777777;
-    height: 5px;
+.divider {
+    color: #EEEEEE;
+    display: inline;
+    float: right;
+    padding-top: 10px;
+    font-weight: 100;
 }
+/* 
+.borderright {
+    border-right: 1px solid #CCCCCC;
+    
+    
+} */
 /* End Header styling */
 
 
@@ -183,7 +192,6 @@ footer {
     border-top: 5px solid #4aaaa5;
     text-align: center;
     flex: 1;
-
 }
 /* End Footer styling */
 
