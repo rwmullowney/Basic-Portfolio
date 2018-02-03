@@ -1,38 +1,46 @@
 <!DOCTYPE HTML>
 
 <head>
-    <title>Ryan Mullowney's Portfolio</title>
+    <title>Ryan Mullowney's Page</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
     <header>
-        <h1>Ryan Mullowney</h1>
-        <h4>About</h4>
-        <h4>Portfolio</h4>
-        <h4>Contact</h4>
+        <div class="mainwidth">
+            <h1>Ryan Mullowney</h1>
+            <h4><a href="contact.html">Contact</a></h4>
+            <h4 class="borderright"><a href="portfolio.html">Portfolio</a></h4>
+            <h4 class="borderright"><a href="index.html">About</a></h4>
+        </div>
     </header>
 
+<!-- Main section -->
+    <section class="mainwidth">
 <!-- "About Me" section -->
-    <section>
-        <h2>About Me</h2>
-        <div>
-            <img src="assets/images/ryanmullowney.jpg" alt="A photo of Ryan Mullowney">
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero.</p>
-        <p>Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-    </section>
 
-<!-- "Connect with me" section -->
-    <section>
-        <h3>Connect with me:</h3>
-        <img src="assets/images/github.png" alt="GitHub Icon">
-        <img src="assets/images/linkedin.png" alt="LinkedIn Icon">
-        <img src="assets/images/stackoverflow.png" alt="StackOverflow Icon">
+        <div class="maincontent">
+            <h2>About Me</h2>
+            <div>
+                <img class="myphoto" src="assets/images/ryanmullowney.jpg" alt="A photo of Ryan Mullowney">
+            </div>
+            <p>Hey there!  I'm Ryan.</p>
+            <p>I'm a Technology Consultant for the University of Texas at Austin.  When I'm not doing that, I'm typically...</p>
+            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p>
+            <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</p>
+        </div>
+
+    <!-- "Connect with me" section -->
+        <div class="sidebar">
+            <h3>Connect with Me:</h3>
+            <a href="https://github.com/rwmullowney" target="_blank"> <img class="connectimage" src="assets/images/github.png" alt="GitHub Icon"> </a>
+            <a href="https://www.linkedin.com/in/ryan-mullowney-a9309443/" target="_blank"> <img class="connectimage" src="assets/images/linkedin.png" alt="LinkedIn Icon"> </a>
+            <a href="https://stackoverflow.com/users/9246315/ryan-m" target="_blank"> <img class="connectimage" src="assets/images/stackoverflow.png" alt="StackOverflow Icon"> </a>
+        </div>
     </section>
 
 <!-- Footer -->
     <footer>
-        <p>Copyright 2018 Ryan Mullowney</p>
+        <p class="footertext">Copyright &copy; 2018 Ryan Mullowney</p>
     </footer>
 </body>

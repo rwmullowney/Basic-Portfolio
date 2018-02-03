@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+}
+
+.mainwidth {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    height: 70px;
+    overflow: hidden;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: auto;
+    padding: 17px;
+    float: left;
+    height: 100%;
+}
+
+h4 {
+    color: #777777;
+    float: right;
+    display: inline;
+    padding: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.borderright {
+    border-right: 1px solid #777777;
+    height: 5px;
+}
+/* End Header styles */
+
+
+/* About Me styles */
+.maincontent {
+    background-color: #ffffff;
+    width: 608px;
+    float: left;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    border-bottom: 3px solid #dddddd;
+    padding-bottom: 20px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
+
+.myphoto {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+p {
+    color: #777777;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* End About Me styles */
+
+
+/* Contact styles */
+.textbox {
+    width: 300px;
+    height: 150px;
+}
+/* End Contact styles */
+
+
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #ffffff;
+    width: 228px;
+    float: left;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    margin-top: 20px;   
+    margin-left: 10px;
+}
+
+.connectimage {
+    height: 60px;
+    width: 60px;
+    float:left;
+}
+
+h3 {
+    border-bottom: 3px solid #dddddd;
+    padding-bottom: 20px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+/* End Sidebar styles */
+
+
+/* Footer styles */
+footer {
+    width: 100%;
+    background-color:#666666;
+    color: #999999 !important;
+    padding-top: 12px;
+    border-top: 5px solid #4aaaa5;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+/* End Footer styles */
+
+
+/* General color styles */
+.fontcolor {
+    color: #777777;
+}
+
+.footertext {
+    font-size: 12px;
+    color: #cccccc;
+}
+
+
+/* Background image */
+html {
+    background-image: url(../images/wood_pattern.png);
+    background-repeat: repeat-x repeat-y; 
+}
