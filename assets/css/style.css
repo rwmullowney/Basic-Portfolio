@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    height: 100%;
 }
 
 .mainwidth {
@@ -54,6 +55,7 @@ h4 {
     padding: 20px;
     border: 1px solid #dddddd;
     margin-top: 20px;
+    margin-bottom: 20px;
     margin-right: 20px;
 }
 
@@ -149,6 +151,11 @@ h3 {
 
 
 /* Footer styling */
+#container {
+    min-height:100%;
+    position:relative;
+ }
+
 footer {
     width: 100%;
     background-color:#666666;
