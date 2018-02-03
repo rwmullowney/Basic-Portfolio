@@ -1,6 +1,9 @@
 body {
-    margin: 0;
     height: 100%;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .mainwidth {
@@ -29,6 +32,7 @@ h1 {
     padding: 17px;
     float: left;
     height: 100%;
+    font-weight: lighter;
 }
 
 h4 {
@@ -71,12 +75,15 @@ h2 {
     width: 200px;
     float: left;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 p {
     color: #777777;
     font-size: 16px;
     line-height: 24px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 0;
 }
 /* End About Me styling */
 
@@ -116,9 +123,24 @@ h5 {
 
 
 /* Contact styling */
-.textbox {
+textarea {
     width: 300px;
-    height: 150px;
+    height: 150px;;
+}
+
+#textresize {
+    resize: both;
+    overflow: auto;
+}
+
+button {
+    height: 50px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 0 30px;
+    margin-top: 10px;
 }
 /* End Contact styling */
 
@@ -132,7 +154,7 @@ h5 {
     padding: 20px;
     border: 1px solid #dddddd;
     margin-top: 20px;   
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .connectimage {
@@ -151,20 +173,16 @@ h3 {
 
 
 /* Footer styling */
-#container {
-    min-height:100%;
-    position:relative;
- }
-
 footer {
     width: 100%;
     background-color:#666666;
     color: #999999 !important;
     padding-top: 12px;
+    padding-bottom: 12px;
     border-top: 5px solid #4aaaa5;
-    position: absolute;
-    bottom: 0;
     text-align: center;
+    flex: 1;
+
 }
 /* End Footer styling */
 
