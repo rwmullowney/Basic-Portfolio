@@ -1,14 +1,14 @@
 body {
-    height: 100%;
     margin: 0;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+    display: grid;
+    height: 100vh;
+    grid-template: "header" 1fr "main" 18fr "footer" 1fr / 1fr
 }
 
 .mainwidth {
     width: 960px;
     margin: 0 auto;
+    grid-area: main;
 }
 
 /* Header styling */
@@ -19,6 +19,7 @@ header {
     height: 70px;
     overflow: hidden;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    grid-area: header;
 }
 
 a {
@@ -52,11 +53,9 @@ h4 {
     padding-top: 10px;
     font-weight: 100;
 }
-/* 
-.borderright {
-    border-right: 1px solid #CCCCCC;
-    
-    
+/*  
+.borderright::after {
+    content: " | "    
 } */
 /* End Header styling */
 
@@ -134,12 +133,12 @@ h5 {
 
 /* Contact styling */
 textarea {
-    width: 300px;
+    width: 500px;
     height: 150px;;
 }
 
-#textresize {
-    resize: both;
+.textresize {
+    resize: vertical;
     overflow: auto;
 }
 
@@ -195,7 +194,7 @@ footer {
     padding-bottom: 12px;
     border-top: 5px solid #4aaaa5;
     text-align: center;
-    flex: 1;
+    grid-area: footer;
 }
 /* End Footer styling */
 
